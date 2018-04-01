@@ -68,6 +68,16 @@ nav ul li{
   display: inline;
 }
 
+.material-icons:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.material-icons:visited {
+  text-decoration: none;
+  color: red;
+}
+
 nav#header ul li a:link,
 nav#header ul li a:visited,
 footer nav ul li a:link,
@@ -78,7 +88,10 @@ footer nav ul li a:visited {
 }
 nav#header ul li a:hover {
   text-decoration: underline;
+  color: red;
 }
+
+
 
 footer {
   background: #eee;
@@ -130,4 +143,15 @@ footer nav ul.right-links{
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+  vertical-align: middle;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 }
