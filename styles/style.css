@@ -144,6 +144,7 @@ footer nav ul.right-links{
   white-space: nowrap;
   direction: ltr;
   vertical-align: middle;
+<<<<<<< HEAD
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
   /* Support for Safari and Chrome. */
@@ -154,4 +155,6 @@ footer nav ul.right-links{
 
   /* Support for IE. */
   font-feature-settings: 'liga';
+=======
+>>>>>>> 8081ce67a53019b3836e3cae1bcf816056f6ab80
 }
