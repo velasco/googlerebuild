@@ -130,4 +130,5 @@ footer nav ul.right-links{
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
+  vertical-align: middle;
 }
